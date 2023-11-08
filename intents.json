@@ -1,0 +1,227 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "not_wel",
+      "patterns": ["not well"],
+      "responses": ["you can shafre me your symptons"]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "how old","how old are you?","what is your age","how old are you","age?"
+      ],
+      "responses": [
+        "I get reborn after every compilation","hey!","my owners are averagely 20 years!"
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "who are you?"
+      ],
+      "responses": [
+        "I'm Your Medical Assistant"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "what should I call you",
+        "whats your name?"
+      ],
+      "responses": [
+        "You can call me Bot!."
+      ]
+    },
+    {
+      "tag": "problem_solving",
+      "patterns": ["i need help",
+        "help me",
+        "tell me",
+        "i have some problem",
+        "problem",
+        "can you help me?"
+      ],
+      "responses": ["yes i can help you",
+        "tell me what can i do for you",
+        "what do you want me to do",
+        "how can i help you",
+        "what kind of help do you need",
+        "tell me"
+        
+      ]
+    },
+    {
+      "tag": "help_",
+      "patterns": ["I'm not in the best of health","I'm not in the greatest of health at the moment",
+        "My health isn't the best it could be","My health isn't great right now"
+      ],
+      "responses": ["Could you kindly tell me about your symptoms?"
+      ]
+    },
+    {
+      "tag": "jaundice",
+      "patterns": ["yellow skin",
+        "yellowish white part of eye",
+        "itching of the skin",
+        "light colored stools",
+        "dark colored urine"
+      ],
+      "responses": ["you might be suffering from jaundice"
+      ]
+    },
+    {
+      "tag": "emotional problems",
+      "patterns": ["anxiety",
+        "depression fatigue",
+        "feeling tense",
+        "flashbacks and nightmares", 
+        "disinterest in regular activities", 
+        "suicidal thoughts", 
+        "hallucinations", "delusions"
+      ],
+      "responses": ["you might be suffering from emotional problems"
+      ]
+    },
+    {
+      "tag": "headache problems",
+      "patterns": [" dizziness", 
+        "nausea", 
+        "vomiting", 
+        "inability to walk"
+      ],
+      "responses": ["you might be suffering from headache problems"
+      ]
+    },
+    {
+      "tag": "allergy",
+      "patterns": ["sneezing and an itchy","runny nose","blocked nose",
+        "itchy, red, watering eyes",
+        "wheezing, chest tightness, shortness of breath and a cough",
+        "a raised, itchy, red rash (hives)",
+        "swollen lips, tongue, eyes or face",
+        "tummy pain, feeling sick, vomiting or diarrhoea","dry, red and cracked skin"
+      ],
+      "responses": ["you might be suffering from allergy"
+        
+      ]
+    },
+    {
+      "tag": "dehydration",
+      "patterns": ["izziness",
+        "light headedness","headache",
+        "tiredness","dry mouth", "dry lips","dry eyes",
+        "passing small amounts of urine infrequently"
+      ],
+      "responses": [
+      "you might be suffering from dehydration"
+      ]
+    },
+    {
+      "tag": "error",
+      "patterns": [" "
+      ],
+      "responses": [
+      "please enter valid input"
+      ]
+    },
+    {
+      "tag": "diabetic retinopathy",
+      "patterns": ["gradually worsening vision","sudden vision loss",
+        "shapes floating in field of vision (floaters)",
+        "blurred vision","patchy vision","eye pain or redness"
+      ],
+      "responses": ["you might be suffering from diabetic retinopathy"
+      ]
+    },
+    {
+      "tag": "diarrhoea",
+      "patterns": ["stomach cramps","nausea","vomiting",
+        "headache","loss of appetite"
+      ],
+      "responses": ["you might be suffering from diarrhoea"
+        
+      ]
+    },
+    {
+      "tag": "eye cancer",
+      "patterns": ["shadows, flashes of light, or wiggly lines in your vision","blurred vision","a dark patch in eye","partial or total loss of vision","bulging of one eye",
+        "lump on eyelid or in eye that's increasing in size",
+        "pain in or around eye"
+      ],
+      "responses": ["you might be suffering from eye cancer"
+      ]
+    },
+    {
+      "tag": "common cold",
+      "patterns": ["a sore throat","a blocked or runny nose",
+        "sneezing","a cough","a hoarse voice","generally feeling unwell"
+      ],
+      "responses": ["you might be suffering from common cold"
+        
+      ]
+    },
+    {
+      "tag": "chickenpox",
+      "patterns": ["feeling sick","a high temperature (fever) of 38C (100.4F) or over",
+        "aching, painful muscles","headache","generally feeling unwell","loss of appetite"
+      ],
+      "responses": ["you might be suffering from chickenpox" 
+      ]
+    },
+    {
+      "tag": "stroke",
+      "patterns": [" facial drooping", "arm weakness", "difficulty with speech", "rapidly developing dizziness or balance", "sudden numbness or weakness", 
+        "loss of vision", "confusion", " severe headache"
+      ],
+      "responses": ["you might be suffering from stroke"
+      ]
+    },
+    {
+      "tag": "asthma",
+      "patterns": ["shortness of breath","chest pain or tightness","cough","snizing"
+      ],
+      "responses": ["you might be suffering from asthma"
+      ]
+    },
+    {
+      "tag": "Dengue",
+      "patterns": ["headache","high fever","muscle pain","joint pain","pain behind eyes","nausea and vomitting","rashes","minor bleeding from gums or nose "
+      ],
+      "responses": ["you might be suffering from Dengue"
+      ]
+    }
+  ]
+}
