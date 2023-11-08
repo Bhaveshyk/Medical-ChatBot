@@ -22,7 +22,7 @@ source venv/bin/activate
 import nltk
 nltk.download('punkt')
 
-4. **Customize intents.json with your chatbot's intents and responses: **
+4. **Customize intents.json with your chatbot's intents and responses:**
 {
   "intents": [
     {
