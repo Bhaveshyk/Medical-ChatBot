@@ -8,7 +8,7 @@ This repository provides a basic setup for deploying a chatbot using Flask and J
 
 1. **Clone the repository and create a virtual environment:**
 
-```bash
+bash
 git clone https://github.com/Bhaveshyk/Medical-ChatBot.git
 cd chatbot-deployment
 python3 -m venv venv
